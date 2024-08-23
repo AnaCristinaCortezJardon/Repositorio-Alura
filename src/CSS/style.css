@@ -1,0 +1,175 @@
+/*275954*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #757FB2;
+    color: #5E183A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+}
+
+.logo{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.contenido{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Inter';
+}
+
+::placeholder{
+    color: #5E183A;
+    text-transform: initial;
+    font-family: 'Inter';
+    font-size: 32px;
+}
+.texto:focus{
+    outline: none;
+}
+
+.texto{
+    border: none;
+    color: #5E183A;
+    text-transform: lowercase;
+    font-family: 'Inter';
+    width: 650px;
+    height: 500px;
+}
+
+.icono-atencion{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.nota{
+    font-size: 12px;
+    font-family: 'Inter';
+}
+
+.btnEncriptar{
+    width: 200px;
+    height: 47px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #757FB2;
+    border-color: #5E183A;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #5E183A;
+    bottom: 75px; 
+}
+
+.btnDesencriptar{
+    width: 200px;
+    height: 47px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #5E183A;
+    border-color: #5E183A;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #757FB2;
+    bottom: 75px; 
+}
+
+.textoEncriptado:focus{
+    outline: none;
+}
+
+.textoEncriptado {
+    position: relative; /* Necesario para el posicionamiento absoluto del botón */
+    border: none;
+    border-radius: 32px;
+    background-color: #275954;
+    background-image: url(/src/img/Mujer.png);
+    background-repeat: no-repeat;
+    background-position: center top 55px;
+    padding-top: 55px;
+    background-size: 60%;
+    color: #5E183A;
+    margin-right: 10px;
+    margin-left: 373px;
+    margin-top: -95px;
+    padding: 10px;
+    padding-top: 30px;
+    width: 400px;
+    height: 680px;
+    font-family: 'Inter';
+}
+
+.btnCopiar {
+    width: 200px;
+    height: 47px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #5E183A;
+    border-color: #5E183A;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #757FB2;
+    position: absolute; /* Posiciona el botón dentro del contenedor */
+    bottom: 165px; /* Ajusta la distancia desde el fondo del contenedor */
+    left: 50%; /* Centra horizontalmente */
+    margin-left: 440px; /* Ajuste para centrar el botón */
+}
+
+.container-footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #5E183A;
+    align-items: center; 
+    justify-content: center;
+}
+
+.texto-footer{
+    font-family: 'DM Serif';
+    font-size: 16px;
+    font-style: bold;
+    color: #757FB2;
+    background-color: #5E183A;
+}
+
+.logo2{
+    background-color: #5E183A;
+    margin-left: 40px;
+    width: 75px;
+    height: 65px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+div.icon-container{
+    display: flex;
+    margin-right: 0px;
+    margin-left: 40px;
+    background-color: #5E183A;
+    align-items: center; 
+}
+
+li.icono-github{
+    background-color: #5E183A;
+}
+
+li.icono-linkedin{
+    background-color: #5E183A;
+}
+
+a{
+    background-color: #5E183A;
+}
+
+svg{
+    background-color: #5E183A;
+}
