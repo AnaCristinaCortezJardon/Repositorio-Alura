@@ -192,52 +192,5 @@ label {
     z-index: 1000; /* Asegura que el label esté por encima de otros elementos */
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .contenido {
-        margin: 0 5%;
-    }
-
-    .texto {
-        height: 300px;
-    }
-
-    .textoEncriptado {
-        height: 500px;
-    }
-
-    .btnEncriptar, .btnDesencriptar, .btnCopiar {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo {
-        width: 80px;
-        height: 60px;
-    }
-
-    .texto {
-        font-size: 1em;
-    }
-
-    .btnEncriptar, .btnDesencriptar, .btnCopiar {
-        font-size: 14px;
-    }
-
-    .texto-footer {
-        font-size: 14px;
-    }
-
-    .logo2 {
-        width: 60px;
-        height: 50px;
-    }
-}
-
-
-
-
 /* Agregar hoover
 Agregar que se vea el puntero */

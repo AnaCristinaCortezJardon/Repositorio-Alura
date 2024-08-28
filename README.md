@@ -1,6 +1,6 @@
 # Repositorio-Alura
 **_Descripción_**
-Este proyecto consiste en un encriptador de texto el cual usa un conjunto específico de reglas de encriptación para transformar el texto y también permite revertir la encriptación. La interfaz es amigable y responsivo, por lo que se adapta a diferentes tamaños de pantalla.
+Este proyecto consiste en un encriptador de texto el cual usa un conjunto específico de reglas de encriptación para transformar el texto y también permite revertir la encriptación. La interfaz es amigable y está pendiente que sea responsivo, para que pueda adaptarse a diferentes tamaños de pantalla.
 
 **_Tecnologías_**
 * **HTML**: Estructura básica.
@@ -25,4 +25,4 @@ Reglas de encriptación
 * Da clic el botón _"Desencriptar"_ para revertir el texto a su forma original
 
 
-Nota: los cambios se hicieron localmente y posteriormente mediante la consola se hizo push para subir los cambios
+Nota: los cambios se hicieron localmente y posteriormente mediante la consola se hizo push para subir los cambios al repositorio remoto
