@@ -4,8 +4,8 @@
     padding: 0px;
     background-color: #757FB2;
     color: #5E183A;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Quicksand';
+    font-weight: bold;
     font-size: 32px;
 }
 
@@ -20,13 +20,13 @@
     display: flex;
     margin-left: 80px;
     margin-right: 80px;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
 }
 
 ::placeholder{
     color: #5E183A;
     text-transform: initial;
-    font-family: 'Inter';
+    font-family: 'Delius';
     font-size: 32px;
 }
 .texto:focus{
@@ -37,7 +37,7 @@
     border: none;
     color: #5E183A;
     text-transform: lowercase;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
     width: 650px;
     height: 500px;
 }
@@ -49,14 +49,15 @@
 }
 
 .nota{
-    font-size: 12px;
-    font-family: 'Inter';
+    font-size: 14px;
+    font-family: 'Quicksand';
+    font-weight: bold;
 }
 
 .btnEncriptar{
     width: 200px;
     height: 47px;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
     font-size: 16px;
     color: #757FB2;
     border-color: #5E183A;
@@ -69,7 +70,7 @@
 .btnDesencriptar{
     width: 200px;
     height: 47px;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
     font-size: 16px;
     color: #5E183A;
     border-color: #5E183A;
@@ -84,7 +85,7 @@
 }
 
 .textoEncriptado {
-    position: relative; /* Necesario para el posicionamiento absoluto del botón */
+    position: relative;
     border: none;
     border-radius: 32px;
     background-color: #275954;
@@ -101,23 +102,23 @@
     padding-top: 30px;
     width: 400px;
     height: 680px;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
 }
 
 .btnCopiar {
     width: 200px;
     height: 47px;
-    font-family: 'Inter';
+    font-family: 'Quicksand';
     font-size: 16px;
     color: #5E183A;
     border-color: #5E183A;
     border-style: solid;
     border-radius: 20px;
     background-color: #757FB2;
-    position: absolute; /* Posiciona el botón dentro del contenedor */
-    bottom: 165px; /* Ajusta la distancia desde el fondo del contenedor */
-    left: 50%; /* Centra horizontalmente */
-    margin-left: 440px; /* Ajuste para centrar el botón */
+    position: absolute; 
+    bottom: 165px;
+    left: 50%; 
+    margin-left: 440px; 
 }
 
 .container-footer{
@@ -126,12 +127,13 @@
     margin-bottom: 0px;
     padding: 5px;
     background-color: #5E183A;
+    color: #757FB2;
     align-items: center; 
     justify-content: center;
 }
 
 .texto-footer{
-    font-family: 'DM Serif';
+    font-family: 'Quicksand';
     font-size: 16px;
     font-style: bold;
     color: #757FB2;
@@ -148,6 +150,11 @@
 ul{
     display: flex;
     list-style: none;
+    background-color: #5E183A;
+}
+
+li{
+    background-color: #5E183A;
 }
 
 div.icon-container{
@@ -156,13 +163,10 @@ div.icon-container{
     margin-left: 40px;
     background-color: #5E183A;
     align-items: center; 
+    color: #757FB2;
 }
 
-li.icono-github{
-    background-color: #5E183A;
-}
-
-li.icono-linkedin{
+svg {
     background-color: #5E183A;
 }
 
@@ -170,6 +174,70 @@ a{
     background-color: #5E183A;
 }
 
-svg{
-    background-color: #5E183A;
+label {
+    font-size: 15px;
+    font-family: 'Quicksand';
+    font-style: italic;
+    color: #757FB2;
+    width: 300px;
+    border: none;
+    background-color: rgba(117, 127, 178, 0); 
+    position: absolute; 
+    bottom: 220px;
+    left: 60%; 
+    margin-left: 440px; 
+    transform: translateX(-50%); /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    display: none; /* Oculta inicialmente */
+    z-index: 1000; /* Asegura que el label esté por encima de otros elementos */
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contenido {
+        margin: 0 5%;
+    }
+
+    .texto {
+        height: 300px;
+    }
+
+    .textoEncriptado {
+        height: 500px;
+    }
+
+    .btnEncriptar, .btnDesencriptar, .btnCopiar {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+        height: 60px;
+    }
+
+    .texto {
+        font-size: 1em;
+    }
+
+    .btnEncriptar, .btnDesencriptar, .btnCopiar {
+        font-size: 14px;
+    }
+
+    .texto-footer {
+        font-size: 14px;
+    }
+
+    .logo2 {
+        width: 60px;
+        height: 50px;
+    }
+}
+
+
+
+
+/* Agregar hoover
+Agregar que se vea el puntero */
