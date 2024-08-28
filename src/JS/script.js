@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 1500);
             textoSalida.value = '';
             setTimeout(() => {
-                textoSalida.style.backgroundImage ="url(/src/img/Mujer.png)";
+                textoSalida.style.backgroundImage ="url(./src/img/Mujer.png)";
             }, 1500);
             
         })

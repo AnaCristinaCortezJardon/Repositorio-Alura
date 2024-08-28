@@ -25,4 +25,4 @@ Reglas de encriptación
 * Da clic el botón _"Desencriptar"_ para revertir el texto a su forma original
 
 
-Nota: los cambios se hicieron localmente y posteriormente mediante la consola se hizo push para subir los cambios al repositorio remoto
+**Nota:** los cambios se hicieron localmente y posteriormente mediante la consola se hizo push para subir los cambios al repositorio remoto
