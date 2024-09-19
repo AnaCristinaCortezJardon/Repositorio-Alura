@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let textoDesencriptado = desencriptar(textoEntrada.value);
         textoSalida.value = textoDesencriptado;
         textoEntrada.value = '';
+        textoSalida.style.backgroundImage ="none"; //quita imagen
     });
 
     // Evento para copiar
@@ -55,14 +56,14 @@ document.addEventListener('DOMContentLoaded', function () {
             alertLabel.insertAdjacentHTML("beforeend", `Texto copiado en el portapapeles  <i style="font-size:18px; color: #757FB2; background-color: #275954"; class="fa">&#xf0ea;</i>`);
             alertLabel.style.display = "inline-block";
             
-            // Oculta el mensaje después de 2 segundos
+            // Oculta el mensaje después de 1 segundo
             setTimeout(() => {
                 alertLabel.style.display = 'none';
-            }, 1500);
+            }, 1000);
             textoSalida.value = '';
             setTimeout(() => {
                 textoSalida.style.backgroundImage ="url(./src/img/Mujer.png)";
-            }, 1500);
+            }, 1000);
             
         })
     });
